@@ -1,0 +1,21 @@
+{
+  "name": "smartcontract",
+  "version": "1.0.0",
+  "description": "Aims to create a simple smart Contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^16.4.5",
+    "ganache": "^7.9.2",
+    "solc": "^0.8.19",
+    "web3": "^4.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.3.0"
+  }
+}
